@@ -5,14 +5,62 @@
     "og_locale": "en_GB",
     "native": "English",
     "lang_label": "Language",
-    "meta_description": "Katie De Paoli, Head of Communications at newcleo. Turin, Italy.",
-    "og_description": "Head of Communications at newcleo. Turin, Italy.",
-    "role": "Head of Communications at newcleo.",
-    "intro": "Italian and British, based in Turin. Before newcleo, sixteen years at Deltatre, from sales and marketing to Group Head of Brand and Communications and Head of Inclusion and Diversity.",
-    "li_desc": "Profile, career and posts. The best place to get in touch.",
+    "umami_id": "a0007fdb-733c-4616-b3da-240b3f25ba8c",
+    "meta_description": "Katie De Paoli, communications leader in Turin. Twenty years in executive, internal and brand communications, from a 20-person startup to a Nasdaq-listed group of 900.",
+    "og_description": "Communications leader. Twenty years in executive, internal and brand communications.",
+    "kicker": "Communications leader · Turin",
+    "headline": "I help leadership teams make their decisions land.",
+    "intro": "Twenty years in communications, brand and internal communications, in sports media and in advanced nuclear energy. I built a communications function from a startup of fewer than 20 people to a Nasdaq-listed group of more than 900 in four countries, working directly with the CEO and COO. Italian and British, native in both languages.",
+    "li_label": "LinkedIn",
+    "li_desc": "Career, posts and the best way to get in touch.",
     "alt_photo": "Portrait of Katie De Paoli",
-    "place": "Turin, Italy",
-    "umami_id": "a0007fdb-733c-4616-b3da-240b3f25ba8c"
+    "stats": [
+      {"n": "20", "t": "years in communications, brand and marketing"},
+      {"n": "900+", "t": "employees in four countries reached by every leadership message"},
+      {"n": "2026", "t": "Nasdaq listing: I led the employee communications"}
+    ],
+    "what_title": "What I do for a leadership team",
+    "what": [
+      {"h": "Get decisions out to the company", "p": "I turn CEO and COO priorities into company-wide messages: who hears them, when, in which language, and what managers need to pass them on. Each one goes out with a manager briefing, FAQs and a named person for questions."},
+      {"h": "Coordinate across functions", "p": "I agree the wording with Legal, HR, Finance, Investor Relations and the country leads on the most sensitive announcements: a stock market listing, new roles and reporting lines, acquired companies joining the group."},
+      {"h": "Keep a regular rhythm", "p": "A weekly leadership update that the Board also receives, a monthly company newsletter, town halls and a global intranet, so people hear things from the company before they hear them anywhere else."},
+      {"h": "Run a team and agencies", "p": "I have led a team across Italy and France and managed agencies and suppliers, Brunswick included, keeping an eye on cost and quality."}
+    ],
+    "exp_title": "Experience",
+    "jobs": [
+      {
+        "org": "newcleo",
+        "meta": "Advanced nuclear energy · Turin, Paris and London · since October 2021",
+        "roles": [{"title": "Head of Communications", "dates": "Global brand, internal and external"}],
+        "points": [
+          "Joined in the company's first year and built the communications function as it grew to more than 900 people in Italy, France, the UK and the US.",
+          "Employee communications for the Nasdaq listing in September 2026, with Legal, Finance and Investor Relations.",
+          "Owned the brand across the group, brought acquired companies into one identity and oversaw the 2024 relaunch of the website.",
+          "Organised the company's presence at PHYSOR 2026 in Turin, 550 delegates from 32 countries, and briefed the CEO for talks and national media."
+        ]
+      },
+      {
+        "org": "Deltatre",
+        "meta": "Sports media and technology · Turin · 2005 to 2021",
+        "roles": [
+          {"title": "Head of Inclusion and Diversity", "dates": "2019–2021", "note": "1,000 people in 19 offices"},
+          {"title": "Group Head of Brand and Communications", "dates": "2019", "note": "Employer branding, internal communications, CSR"},
+          {"title": "Head of Marketing Communication", "dates": "2018", "note": "Website, social, events, press relations"},
+          {"title": "Head of Marketing Operations", "dates": "2014–2018"},
+          {"title": "Sales and Marketing Manager", "dates": "2005–2014"}
+        ],
+        "points": []
+      }
+    ],
+    "edu_title": "Education and languages",
+    "edu": [
+      "Degree in Business Economics, University of Turin",
+      "Professional Diploma in Digital Strategy",
+      "English and Italian, both native"
+    ],
+    "contact_title": "Get in touch",
+    "contact_text": "The quickest way to reach me is on LinkedIn.",
+    "place": "Turin, Italy"
   },
   "it": {
     "lang": "it",
@@ -20,13 +68,61 @@
     "og_locale": "it_IT",
     "native": "Italiano",
     "lang_label": "Lingua",
-    "meta_description": "Katie De Paoli, Head of Communications di newcleo. Torino.",
-    "og_description": "Head of Communications di newcleo. Torino.",
-    "role": "Head of Communications di newcleo.",
-    "intro": "Italiana e britannica, vive a Torino. Prima di newcleo, sedici anni in Deltatre: dalle vendite e il marketing fino a Group Head of Brand and Communications e Head of Inclusion and Diversity.",
-    "li_desc": "Profilo, percorso professionale e post. Il canale migliore per mettersi in contatto.",
+    "umami_id": "a0007fdb-733c-4616-b3da-240b3f25ba8c",
+    "meta_description": "Katie De Paoli, responsabile della comunicazione a Torino. Vent'anni di comunicazione executive, interna e di brand, da una startup di 20 persone a un gruppo quotato al Nasdaq con 900 persone.",
+    "og_description": "Responsabile della comunicazione. Vent'anni di comunicazione executive, interna e di brand.",
+    "kicker": "Comunicazione · Torino",
+    "headline": "Aiuto i team di leadership a far arrivare le loro decisioni.",
+    "intro": "Vent'anni di comunicazione, brand e comunicazione interna, tra media sportivi ed energia nucleare avanzata. Ho costruito la funzione comunicazione di una startup di meno di 20 persone diventata un gruppo quotato al Nasdaq con oltre 900 persone in quattro paesi, lavorando a stretto contatto con CEO e COO. Italiana e britannica, madrelingua in entrambe le lingue.",
+    "li_label": "LinkedIn",
+    "li_desc": "Percorso professionale, post e il modo migliore per contattarmi.",
     "alt_photo": "Ritratto di Katie De Paoli",
-    "place": "Torino",
-    "umami_id": "a0007fdb-733c-4616-b3da-240b3f25ba8c"
+    "stats": [
+      {"n": "20", "t": "anni di comunicazione, brand e marketing"},
+      {"n": "900+", "t": "persone in quattro paesi raggiunte da ogni messaggio della leadership"},
+      {"n": "2026", "t": "quotazione al Nasdaq: ho guidato la comunicazione ai dipendenti"}
+    ],
+    "what_title": "Cosa faccio per un team di leadership",
+    "what": [
+      {"h": "Portare le decisioni a tutta l'azienda", "p": "Trasformo le priorità di CEO e COO in messaggi per tutta l'azienda: chi li riceve, quando, in quale lingua e cosa serve ai manager per trasmetterli. Ognuno parte con un briefing per i manager, le FAQ e una persona di riferimento per le domande."},
+      {"h": "Coordinare le funzioni", "p": "Concordo i testi con Legal, HR, Finance, Investor Relations e i country manager sugli annunci più delicati: una quotazione in borsa, nuovi ruoli e linee di riporto, società acquisite che entrano nel gruppo."},
+      {"h": "Dare un ritmo costante", "p": "Un aggiornamento settimanale della leadership che riceve anche il CdA, una newsletter aziendale mensile, town hall e una intranet globale, perché le persone sappiano le cose dall'azienda prima che da chiunque altro."},
+      {"h": "Guidare un team e le agenzie", "p": "Ho guidato un team tra Italia e Francia e gestito agenzie e fornitori, Brunswick compresa, con attenzione a costi e qualità."}
+    ],
+    "exp_title": "Esperienza",
+    "jobs": [
+      {
+        "org": "newcleo",
+        "meta": "Energia nucleare avanzata · Torino, Parigi e Londra · da ottobre 2021",
+        "roles": [{"title": "Head of Communications", "dates": "Brand globale, comunicazione interna ed esterna"}],
+        "points": [
+          "Entrata nel primo anno di vita dell'azienda, ho costruito la funzione comunicazione mentre cresceva fino a oltre 900 persone tra Italia, Francia, Regno Unito e Stati Uniti.",
+          "Comunicazione ai dipendenti per la quotazione al Nasdaq di settembre 2026, con Legal, Finance e Investor Relations.",
+          "Responsabile del brand in tutto il gruppo, ho portato le società acquisite in un'unica identità e seguito il rilancio del sito nel 2024.",
+          "Ho organizzato la presenza dell'azienda a PHYSOR 2026 a Torino, 550 delegati da 32 paesi, e preparato il CEO per interventi e media nazionali."
+        ]
+      },
+      {
+        "org": "Deltatre",
+        "meta": "Media sportivi e tecnologia · Torino · dal 2005 al 2021",
+        "roles": [
+          {"title": "Head of Inclusion and Diversity", "dates": "2019–2021", "note": "1.000 persone in 19 sedi"},
+          {"title": "Group Head of Brand and Communications", "dates": "2019", "note": "Employer branding, comunicazione interna, CSR"},
+          {"title": "Head of Marketing Communication", "dates": "2018", "note": "Sito, social, eventi, ufficio stampa"},
+          {"title": "Head of Marketing Operations", "dates": "2014–2018"},
+          {"title": "Sales and Marketing Manager", "dates": "2005–2014"}
+        ],
+        "points": []
+      }
+    ],
+    "edu_title": "Formazione e lingue",
+    "edu": [
+      "Laurea in Economia Aziendale, Università di Torino",
+      "Professional Diploma in Digital Strategy",
+      "Inglese e italiano, entrambe madrelingua"
+    ],
+    "contact_title": "Contatti",
+    "contact_text": "Il modo più rapido per raggiungermi è LinkedIn.",
+    "place": "Torino"
   }
 }

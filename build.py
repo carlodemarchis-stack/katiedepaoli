@@ -15,6 +15,39 @@ def esc(s):
     return html.escape(s, quote=False).replace('"', "&quot;")
 
 
+def stats(items):
+    return "\n".join(
+        f'      <li><span class="n">{esc(i["n"])}</span><span class="t">{esc(i["t"])}</span></li>' for i in items
+    )
+
+
+def what(items):
+    return "\n".join(
+        f'      <li><h3>{esc(i["h"])}</h3><p>{esc(i["p"])}</p></li>' for i in items
+    )
+
+
+def jobs(items):
+    out = []
+    for j in items:
+        roles = "\n".join(
+            f'          <li><span class="rt">{esc(r["title"])}</span><span class="rd">{esc(r["dates"])}</span>'
+            + (f'<span class="rn">{esc(r["note"])}</span>' if r.get("note") else "")
+            + "</li>"
+            for r in j["roles"]
+        )
+        points = "".join(f"\n          <li>{esc(p)}</li>" for p in j["points"])
+        out.append(
+            f'      <article class="job">\n'
+            f'        <h3>{esc(j["org"])}</h3>\n'
+            f'        <p class="jm">{esc(j["meta"])}</p>\n'
+            f'        <ul class="roles">\n{roles}\n        </ul>\n'
+            + (f'        <ul class="points">{points}\n        </ul>\n' if points else "")
+            + "      </article>"
+        )
+    return "\n".join(out)
+
+
 def main():
     langs = json.loads((ROOT / "strings.json").read_text(encoding="utf-8"))
     tpl = Template((ROOT / "template.html").read_text(encoding="utf-8"))
@@ -35,11 +68,15 @@ def main():
             for o in langs.values() if o is not s
         )
         page = tpl.substitute(
-            {k: esc(v) for k, v in s.items()},
+            {k: esc(v) for k, v in s.items() if isinstance(v, str)},
             url=SITE + s["path"],
             alternates=alternates,
             og_alternates=og_alts,
             lang_links=links,
+            stats_html=stats(s["stats"]),
+            what_html=what(s["what"]),
+            jobs_html=jobs(s["jobs"]),
+            edu_html="\n".join(f"      <li>{esc(e)}</li>" for e in s["edu"]),
         )
         out = ROOT / s["path"].strip("/") / "index.html"
         out.parent.mkdir(exist_ok=True)

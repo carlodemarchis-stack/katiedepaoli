@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Katie De Paoli</title>
-<meta name="description" content="Katie De Paoli, Head of Communications di newcleo. Torino.">
+<meta name="description" content="Katie De Paoli, responsabile della comunicazione a Torino. Vent'anni di comunicazione executive, interna e di brand, da una startup di 20 persone a un gruppo quotato al Nasdaq con 900 persone.">
 <link rel="canonical" href="https://katiedepaoli.com/it/">
 <link rel="alternate" hreflang="en" href="https://katiedepaoli.com/">
 <link rel="alternate" hreflang="it" href="https://katiedepaoli.com/it/">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://katiedepaoli.com/it/">
 <meta property="og:title" content="Katie De Paoli">
-<meta property="og:description" content="Head of Communications di newcleo. Torino.">
+<meta property="og:description" content="Responsabile della comunicazione. Vent'anni di comunicazione executive, interna e di brand.">
 <meta property="og:locale" content="it_IT">
 <meta property="og:locale:alternate" content="en_GB">
 <meta property="og:image" content="https://katiedepaoli.com/og.jpg">
@@ -22,21 +22,24 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
-  :root{--ink:#111;--mute:#6b6b6b;--line:#e4e4e4}
+  :root{--ink:#111;--mute:#6b6b6b;--line:#e4e4e4;--soft:#f6f5f3}
   html{-webkit-text-size-adjust:100%}
-  body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.4;min-height:100vh;display:flex;flex-direction:column}
+  body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.45}
   a{color:inherit;text-decoration:none}
-  .wrap{width:100%;max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+  ul{list-style:none}
+  .wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
   .langs{display:flex;justify-content:flex-end;gap:18px;padding-top:20px;font-size:14px;color:var(--mute)}
   .langs a:hover{color:var(--ink)}
   .langs a[aria-current]{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
-  main{flex:1;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:end;padding:clamp(32px,7vw,96px) 0 clamp(48px,8vw,104px)}
-  h1{font-size:clamp(44px,9vw,128px);font-weight:500;letter-spacing:-.035em;line-height:.95}
-  .role{margin-top:clamp(18px,2.5vw,32px);font-size:clamp(22px,2.4vw,30px);font-weight:500;letter-spacing:-.01em}
-  .intro{margin-top:12px;max-width:42ch;font-size:clamp(17px,1.6vw,20px);color:var(--mute)}
-  .link{display:block;margin-top:clamp(32px,4vw,56px);max-width:520px}
+
+  .hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:end;padding:clamp(28px,6vw,80px) 0 clamp(40px,6vw,80px)}
+  .kicker{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+  h1{margin-top:14px;font-size:clamp(44px,8.5vw,116px);font-weight:500;letter-spacing:-.035em;line-height:.95}
+  .headline{margin-top:clamp(20px,2.6vw,34px);font-size:clamp(24px,2.8vw,36px);font-weight:500;letter-spacing:-.015em;line-height:1.15;max-width:22ch}
+  .intro{margin-top:16px;max-width:46ch;font-size:clamp(17px,1.5vw,19px);color:var(--mute)}
+  .link{display:block;margin-top:clamp(28px,3.5vw,44px);max-width:520px}
   .meta{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-top:14px;border-top:1px solid var(--ink)}
-  .name{font-size:clamp(20px,2.2vw,28px);font-weight:500;letter-spacing:-.01em}
+  .name{font-size:clamp(20px,2vw,26px);font-weight:500;letter-spacing:-.01em}
   .host{font-size:14px;color:var(--mute);white-space:nowrap}
   .host::after{content:" \2197"}
   .link:hover .host{color:var(--ink)}
@@ -44,10 +47,47 @@
   .link:focus-visible{outline:2px solid var(--ink);outline-offset:6px}
   .ph{aspect-ratio:1;overflow:hidden;background:#f2f2f2}
   .ph img{display:block;width:100%;height:100%;object-fit:cover}
-  footer{border-top:1px solid var(--line);padding:24px 0 40px;font-size:14px;color:var(--mute)}
-  @media (max-width:760px){
-    main{grid-template-columns:1fr;align-items:start}
+
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+  .stats li{padding:22px 24px 26px 0}
+  .stats li+li{padding-left:24px;border-left:1px solid var(--line)}
+  .stats .n{display:block;font-size:clamp(40px,5vw,64px);font-weight:500;letter-spacing:-.03em;line-height:1}
+  .stats .t{display:block;margin-top:10px;font-size:15px;color:var(--mute);max-width:28ch}
+
+  section.block{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.4fr);gap:clamp(20px,4vw,64px);padding:clamp(40px,6vw,72px) 0;border-bottom:1px solid var(--line)}
+  h2{font-size:clamp(22px,2.2vw,28px);font-weight:500;letter-spacing:-.01em;line-height:1.15}
+  .what{display:grid;grid-template-columns:1fr 1fr;gap:28px 40px}
+  .what h3,.job h3{font-size:19px;font-weight:500;letter-spacing:-.005em}
+  .what p{margin-top:8px;color:var(--mute)}
+  .job+.job{margin-top:44px}
+  .job h3{font-size:clamp(24px,2.4vw,30px);letter-spacing:-.015em}
+  .jm{margin-top:4px;font-size:15px;color:var(--mute)}
+  .roles{margin-top:16px;border-top:1px solid var(--line)}
+  .roles li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 20px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .rt{font-weight:500}
+  .rd{color:var(--mute);font-size:15px;text-align:right}
+  .rn{grid-column:1/-1;color:var(--mute);font-size:15px}
+  .points{margin-top:16px}
+  .points li{position:relative;padding-left:20px;margin-top:10px}
+  .points li::before{content:"";position:absolute;left:0;top:.7em;width:8px;height:1px;background:var(--ink)}
+  .edu li{padding:12px 0;border-bottom:1px solid var(--line)}
+  .edu li:first-child{border-top:1px solid var(--line)}
+  .contact p{font-size:clamp(18px,1.6vw,20px);color:var(--mute)}
+  .contact .link{margin-top:20px}
+
+  footer{padding:24px 0 40px;font-size:14px;color:var(--mute)}
+  @media (max-width:820px){
+    .hero{grid-template-columns:1fr;align-items:start}
     .ph{order:-1;max-width:420px}
+    section.block{grid-template-columns:1fr}
+    .what{grid-template-columns:1fr}
+  }
+  @media (max-width:600px){
+    .stats{grid-template-columns:1fr}
+    .stats li,.stats li+li{padding:18px 0;border-left:0}
+    .stats li+li{border-top:1px solid var(--line)}
+    .roles li{grid-template-columns:1fr}
+    .rd{text-align:left}
   }
 </style>
 <!-- Umami -->
@@ -61,21 +101,89 @@
     <a href="/" lang="en" hreflang="en">English</a>
     <a href="/it/" lang="it" hreflang="it" aria-current="page">Italiano</a>
   </nav>
-</div>
-<div class="wrap" style="flex:1;display:flex">
-  <main>
+
+  <header class="hero">
     <div>
+      <p class="kicker">Comunicazione · Torino</p>
       <h1>Katie<br>De Paoli</h1>
-      <p class="role">Head of Communications di newcleo.</p>
-      <p class="intro">Italiana e britannica, vive a Torino. Prima di newcleo, sedici anni in Deltatre: dalle vendite e il marketing fino a Group Head of Brand and Communications e Head of Inclusion and Diversity.</p>
+      <p class="headline">Aiuto i team di leadership a far arrivare le loro decisioni.</p>
+      <p class="intro">Vent'anni di comunicazione, brand e comunicazione interna, tra media sportivi ed energia nucleare avanzata. Ho costruito la funzione comunicazione di una startup di meno di 20 persone diventata un gruppo quotato al Nasdaq con oltre 900 persone in quattro paesi, lavorando a stretto contatto con CEO e COO. Italiana e britannica, madrelingua in entrambe le lingue.</p>
       <a class="link" href="https://www.linkedin.com/in/katie-de-paoli-b868637/" rel="me">
         <div class="meta"><span class="name">LinkedIn</span><span class="host">linkedin.com/in/katie-de-paoli</span></div>
-        <p class="desc">Profilo, percorso professionale e post. Il canale migliore per mettersi in contatto.</p>
+        <p class="desc">Percorso professionale, post e il modo migliore per contattarmi.</p>
       </a>
     </div>
-    <div class="ph"><img src="/img/katie.jpg" srcset="/img/katie-s.jpg 480w, /img/katie.jpg 800w" sizes="(max-width:760px) 420px, 45vw" width="800" height="800" alt="Ritratto di Katie De Paoli"></div>
+    <div class="ph"><img src="/img/katie.jpg" srcset="/img/katie-s.jpg 480w, /img/katie.jpg 800w" sizes="(max-width:820px) 420px, 42vw" width="800" height="800" alt="Ritratto di Katie De Paoli"></div>
+  </header>
+
+  <main>
+    <ul class="stats">
+      <li><span class="n">20</span><span class="t">anni di comunicazione, brand e marketing</span></li>
+      <li><span class="n">900+</span><span class="t">persone in quattro paesi raggiunte da ogni messaggio della leadership</span></li>
+      <li><span class="n">2026</span><span class="t">quotazione al Nasdaq: ho guidato la comunicazione ai dipendenti</span></li>
+    </ul>
+
+    <section class="block">
+      <h2>Cosa faccio per un team di leadership</h2>
+      <ul class="what">
+      <li><h3>Portare le decisioni a tutta l'azienda</h3><p>Trasformo le priorità di CEO e COO in messaggi per tutta l'azienda: chi li riceve, quando, in quale lingua e cosa serve ai manager per trasmetterli. Ognuno parte con un briefing per i manager, le FAQ e una persona di riferimento per le domande.</p></li>
+      <li><h3>Coordinare le funzioni</h3><p>Concordo i testi con Legal, HR, Finance, Investor Relations e i country manager sugli annunci più delicati: una quotazione in borsa, nuovi ruoli e linee di riporto, società acquisite che entrano nel gruppo.</p></li>
+      <li><h3>Dare un ritmo costante</h3><p>Un aggiornamento settimanale della leadership che riceve anche il CdA, una newsletter aziendale mensile, town hall e una intranet globale, perché le persone sappiano le cose dall'azienda prima che da chiunque altro.</p></li>
+      <li><h3>Guidare un team e le agenzie</h3><p>Ho guidato un team tra Italia e Francia e gestito agenzie e fornitori, Brunswick compresa, con attenzione a costi e qualità.</p></li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>Esperienza</h2>
+      <div>
+      <article class="job">
+        <h3>newcleo</h3>
+        <p class="jm">Energia nucleare avanzata · Torino, Parigi e Londra · da ottobre 2021</p>
+        <ul class="roles">
+          <li><span class="rt">Head of Communications</span><span class="rd">Brand globale, comunicazione interna ed esterna</span></li>
+        </ul>
+        <ul class="points">
+          <li>Entrata nel primo anno di vita dell'azienda, ho costruito la funzione comunicazione mentre cresceva fino a oltre 900 persone tra Italia, Francia, Regno Unito e Stati Uniti.</li>
+          <li>Comunicazione ai dipendenti per la quotazione al Nasdaq di settembre 2026, con Legal, Finance e Investor Relations.</li>
+          <li>Responsabile del brand in tutto il gruppo, ho portato le società acquisite in un'unica identità e seguito il rilancio del sito nel 2024.</li>
+          <li>Ho organizzato la presenza dell'azienda a PHYSOR 2026 a Torino, 550 delegati da 32 paesi, e preparato il CEO per interventi e media nazionali.</li>
+        </ul>
+      </article>
+      <article class="job">
+        <h3>Deltatre</h3>
+        <p class="jm">Media sportivi e tecnologia · Torino · dal 2005 al 2021</p>
+        <ul class="roles">
+          <li><span class="rt">Head of Inclusion and Diversity</span><span class="rd">2019–2021</span><span class="rn">1.000 persone in 19 sedi</span></li>
+          <li><span class="rt">Group Head of Brand and Communications</span><span class="rd">2019</span><span class="rn">Employer branding, comunicazione interna, CSR</span></li>
+          <li><span class="rt">Head of Marketing Communication</span><span class="rd">2018</span><span class="rn">Sito, social, eventi, ufficio stampa</span></li>
+          <li><span class="rt">Head of Marketing Operations</span><span class="rd">2014–2018</span></li>
+          <li><span class="rt">Sales and Marketing Manager</span><span class="rd">2005–2014</span></li>
+        </ul>
+      </article>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2>Formazione e lingue</h2>
+      <ul class="edu">
+      <li>Laurea in Economia Aziendale, Università di Torino</li>
+      <li>Professional Diploma in Digital Strategy</li>
+      <li>Inglese e italiano, entrambe madrelingua</li>
+      </ul>
+    </section>
+
+    <section class="block contact">
+      <h2>Contatti</h2>
+      <div>
+        <p>Il modo più rapido per raggiungermi è LinkedIn.</p>
+        <a class="link" href="https://www.linkedin.com/in/katie-de-paoli-b868637/">
+          <div class="meta"><span class="name">LinkedIn</span><span class="host">linkedin.com/in/katie-de-paoli</span></div>
+        </a>
+      </div>
+    </section>
   </main>
+
+  <footer>Katie De Paoli · Torino</footer>
 </div>
-<footer><div class="wrap">Katie De Paoli · Torino</div></footer>
 </body>
 </html>
