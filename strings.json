@@ -1,0 +1,32 @@
+{
+  "en": {
+    "lang": "en",
+    "path": "/",
+    "og_locale": "en_GB",
+    "native": "English",
+    "lang_label": "Language",
+    "meta_description": "Katie De Paoli, Head of Communications at newcleo. Turin, Italy.",
+    "og_description": "Head of Communications at newcleo. Turin, Italy.",
+    "role": "Head of Communications at newcleo.",
+    "intro": "Italian and British, based in Turin. Before newcleo, sixteen years at Deltatre, from sales and marketing to Group Head of Brand and Communications and Head of Inclusion and Diversity.",
+    "li_desc": "Profile, career and posts. The best place to get in touch.",
+    "alt_photo": "Portrait of Katie De Paoli",
+    "place": "Turin, Italy",
+    "umami_id": "a0007fdb-733c-4616-b3da-240b3f25ba8c"
+  },
+  "it": {
+    "lang": "it",
+    "path": "/it/",
+    "og_locale": "it_IT",
+    "native": "Italiano",
+    "lang_label": "Lingua",
+    "meta_description": "Katie De Paoli, Head of Communications di newcleo. Torino.",
+    "og_description": "Head of Communications di newcleo. Torino.",
+    "role": "Head of Communications di newcleo.",
+    "intro": "Italiana e britannica, vive a Torino. Prima di newcleo, sedici anni in Deltatre: dalle vendite e il marketing fino a Group Head of Brand and Communications e Head of Inclusion and Diversity.",
+    "li_desc": "Profilo, percorso professionale e post. Il canale migliore per mettersi in contatto.",
+    "alt_photo": "Ritratto di Katie De Paoli",
+    "place": "Torino",
+    "umami_id": "a0007fdb-733c-4616-b3da-240b3f25ba8c"
+  }
+}
