@@ -15,23 +15,58 @@
     "li_desc": "Career, posts and the best way to get in touch.",
     "alt_photo": "Portrait of Katie De Paoli",
     "stats": [
-      {"n": "20", "t": "years in communications, brand and marketing"},
-      {"n": "900+", "t": "employees in four countries reached by every leadership message"},
-      {"n": "2026", "t": "Nasdaq listing: I led the employee communications"}
+      {
+        "n": "20",
+        "t": "years in communications, brand and marketing"
+      },
+      {
+        "n": "900+",
+        "t": "employees in four countries reached by every leadership message"
+      },
+      {
+        "n": "2026",
+        "t": "Nasdaq listing: I led the employee communications"
+      }
     ],
     "what_title": "What I do for a leadership team",
     "what": [
-      {"h": "Get decisions out to the company", "p": "I turn CEO and COO priorities into company-wide messages: who hears them, when, in which language, and what managers need to pass them on. Each one goes out with a manager briefing, FAQs and a named person for questions."},
-      {"h": "Coordinate across functions", "p": "I agree the wording with Legal, HR, Finance, Investor Relations and the country leads on the most sensitive announcements: a stock market listing, new roles and reporting lines, acquired companies joining the group."},
-      {"h": "Keep a regular rhythm", "p": "A weekly leadership update that the Board also receives, a monthly company newsletter, town halls and a global intranet, so people hear things from the company before they hear them anywhere else."},
-      {"h": "Run a team and agencies", "p": "I have led a team across Italy and France and managed agencies and suppliers, Brunswick included, keeping an eye on cost and quality."}
+      {
+        "h": "Get decisions out to the company",
+        "p": "I turn CEO and COO priorities into company-wide messages: who hears them, when, in which language, and what managers need to pass them on. Each one goes out with a manager briefing, FAQs and a named person for questions."
+      },
+      {
+        "h": "Coordinate across functions",
+        "p": "I agree the wording with Legal, HR, Finance, Investor Relations and the country leads on the most sensitive announcements: a stock market listing, new roles and reporting lines, acquired companies joining the group."
+      },
+      {
+        "h": "Keep a regular rhythm",
+        "p": "A weekly leadership update that the Board also receives, a monthly company newsletter, town halls and a global intranet, so people hear things from the company before they hear them anywhere else."
+      },
+      {
+        "h": "Run a team and agencies",
+        "p": "I have led a team across Italy and France and managed agencies and suppliers, Brunswick included, keeping an eye on cost and quality."
+      }
     ],
+    "how_title": "How I work",
+    "how": [
+      "Resilience and steady leadership under pressure",
+      "Solid integrity, with intent, purpose and actions always aligned",
+      "The ability to build trust with internal and external stakeholders",
+      "Sound judgement on sensitive information",
+      "Strong cross-functional coordination"
+    ],
+    "how_note": "These are reflected in the consistently positive feedback I receive from peers and from internal and external stakeholders.",
     "exp_title": "Experience",
     "jobs": [
       {
         "org": "newcleo",
         "meta": "Advanced nuclear energy · Turin, Paris and London · since October 2021",
-        "roles": [{"title": "Head of Communications", "dates": "Global brand, internal and external"}],
+        "roles": [
+          {
+            "title": "Head of Communications",
+            "dates": "Global brand, internal and external"
+          }
+        ],
         "points": [
           "Joined in the company's first year and built the communications function as it grew to more than 900 people in Italy, France, the UK and the US.",
           "Employee communications for the Nasdaq listing in September 2026, with Legal, Finance and Investor Relations.",
@@ -43,11 +78,29 @@
         "org": "Deltatre",
         "meta": "Sports media and technology · Turin · 2005 to 2021",
         "roles": [
-          {"title": "Head of Inclusion and Diversity", "dates": "2019–2021", "note": "1,000 people in 19 offices"},
-          {"title": "Group Head of Brand and Communications", "dates": "2019", "note": "Employer branding, internal communications, CSR"},
-          {"title": "Head of Marketing Communication", "dates": "2018", "note": "Website, social, events, press relations"},
-          {"title": "Head of Marketing Operations", "dates": "2014–2018"},
-          {"title": "Sales and Marketing Manager", "dates": "2005–2014"}
+          {
+            "title": "Head of Inclusion and Diversity",
+            "dates": "2019–2021",
+            "note": "1,000 people in 19 offices"
+          },
+          {
+            "title": "Group Head of Brand and Communications",
+            "dates": "2019",
+            "note": "Employer branding, internal communications, CSR"
+          },
+          {
+            "title": "Head of Marketing Communication",
+            "dates": "2018",
+            "note": "Website, social, events, press relations"
+          },
+          {
+            "title": "Head of Marketing Operations",
+            "dates": "2014–2018"
+          },
+          {
+            "title": "Sales and Marketing Manager",
+            "dates": "2005–2014"
+          }
         ],
         "points": []
       }
@@ -78,23 +131,58 @@
     "li_desc": "Percorso professionale, post e il modo migliore per contattarmi.",
     "alt_photo": "Ritratto di Katie De Paoli",
     "stats": [
-      {"n": "20", "t": "anni di comunicazione, brand e marketing"},
-      {"n": "900+", "t": "persone in quattro paesi raggiunte da ogni messaggio della leadership"},
-      {"n": "2026", "t": "quotazione al Nasdaq: ho guidato la comunicazione ai dipendenti"}
+      {
+        "n": "20",
+        "t": "anni di comunicazione, brand e marketing"
+      },
+      {
+        "n": "900+",
+        "t": "persone in quattro paesi raggiunte da ogni messaggio della leadership"
+      },
+      {
+        "n": "2026",
+        "t": "quotazione al Nasdaq: ho guidato la comunicazione ai dipendenti"
+      }
     ],
     "what_title": "Cosa faccio per un team di leadership",
     "what": [
-      {"h": "Portare le decisioni a tutta l'azienda", "p": "Trasformo le priorità di CEO e COO in messaggi per tutta l'azienda: chi li riceve, quando, in quale lingua e cosa serve ai manager per trasmetterli. Ognuno parte con un briefing per i manager, le FAQ e una persona di riferimento per le domande."},
-      {"h": "Coordinare le funzioni", "p": "Concordo i testi con Legal, HR, Finance, Investor Relations e i country manager sugli annunci più delicati: una quotazione in borsa, nuovi ruoli e linee di riporto, società acquisite che entrano nel gruppo."},
-      {"h": "Dare un ritmo costante", "p": "Un aggiornamento settimanale della leadership che riceve anche il CdA, una newsletter aziendale mensile, town hall e una intranet globale, perché le persone sappiano le cose dall'azienda prima che da chiunque altro."},
-      {"h": "Guidare un team e le agenzie", "p": "Ho guidato un team tra Italia e Francia e gestito agenzie e fornitori, Brunswick compresa, con attenzione a costi e qualità."}
+      {
+        "h": "Portare le decisioni a tutta l'azienda",
+        "p": "Trasformo le priorità di CEO e COO in messaggi per tutta l'azienda: chi li riceve, quando, in quale lingua e cosa serve ai manager per trasmetterli. Ognuno parte con un briefing per i manager, le FAQ e una persona di riferimento per le domande."
+      },
+      {
+        "h": "Coordinare le funzioni",
+        "p": "Concordo i testi con Legal, HR, Finance, Investor Relations e i country manager sugli annunci più delicati: una quotazione in borsa, nuovi ruoli e linee di riporto, società acquisite che entrano nel gruppo."
+      },
+      {
+        "h": "Dare un ritmo costante",
+        "p": "Un aggiornamento settimanale della leadership che riceve anche il CdA, una newsletter aziendale mensile, town hall e una intranet globale, perché le persone sappiano le cose dall'azienda prima che da chiunque altro."
+      },
+      {
+        "h": "Guidare un team e le agenzie",
+        "p": "Ho guidato un team tra Italia e Francia e gestito agenzie e fornitori, Brunswick compresa, con attenzione a costi e qualità."
+      }
     ],
+    "how_title": "Come lavoro",
+    "how": [
+      "Resilienza e una leadership stabile sotto pressione",
+      "Integrità solida, con intenzioni, obiettivi e azioni sempre allineati",
+      "La capacità di costruire fiducia con gli stakeholder interni ed esterni",
+      "Giudizio equilibrato nella gestione di informazioni riservate",
+      "Un forte coordinamento tra le funzioni"
+    ],
+    "how_note": "Lo confermano i riscontri sempre positivi che ricevo da colleghi e da stakeholder interni ed esterni.",
     "exp_title": "Esperienza",
     "jobs": [
       {
         "org": "newcleo",
         "meta": "Energia nucleare avanzata · Torino, Parigi e Londra · da ottobre 2021",
-        "roles": [{"title": "Head of Communications", "dates": "Brand globale, comunicazione interna ed esterna"}],
+        "roles": [
+          {
+            "title": "Head of Communications",
+            "dates": "Brand globale, comunicazione interna ed esterna"
+          }
+        ],
         "points": [
           "Entrata nel primo anno di vita dell'azienda, ho costruito la funzione comunicazione mentre cresceva fino a oltre 900 persone tra Italia, Francia, Regno Unito e Stati Uniti.",
           "Comunicazione ai dipendenti per la quotazione al Nasdaq di settembre 2026, con Legal, Finance e Investor Relations.",
@@ -106,11 +194,29 @@
         "org": "Deltatre",
         "meta": "Media sportivi e tecnologia · Torino · dal 2005 al 2021",
         "roles": [
-          {"title": "Head of Inclusion and Diversity", "dates": "2019–2021", "note": "1.000 persone in 19 sedi"},
-          {"title": "Group Head of Brand and Communications", "dates": "2019", "note": "Employer branding, comunicazione interna, CSR"},
-          {"title": "Head of Marketing Communication", "dates": "2018", "note": "Sito, social, eventi, ufficio stampa"},
-          {"title": "Head of Marketing Operations", "dates": "2014–2018"},
-          {"title": "Sales and Marketing Manager", "dates": "2005–2014"}
+          {
+            "title": "Head of Inclusion and Diversity",
+            "dates": "2019–2021",
+            "note": "1.000 persone in 19 sedi"
+          },
+          {
+            "title": "Group Head of Brand and Communications",
+            "dates": "2019",
+            "note": "Employer branding, comunicazione interna, CSR"
+          },
+          {
+            "title": "Head of Marketing Communication",
+            "dates": "2018",
+            "note": "Sito, social, eventi, ufficio stampa"
+          },
+          {
+            "title": "Head of Marketing Operations",
+            "dates": "2014–2018"
+          },
+          {
+            "title": "Sales and Marketing Manager",
+            "dates": "2005–2014"
+          }
         ],
         "points": []
       }

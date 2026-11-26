@@ -76,6 +76,7 @@ def main():
             stats_html=stats(s["stats"]),
             what_html=what(s["what"]),
             jobs_html=jobs(s["jobs"]),
+            how_html="\n".join(f"      <li>{esc(h)}</li>" for h in s["how"]),
             edu_html="\n".join(f"      <li>{esc(e)}</li>" for e in s["edu"]),
         )
         out = ROOT / s["path"].strip("/") / "index.html"
